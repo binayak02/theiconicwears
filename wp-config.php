@@ -1,4 +1,11 @@
 <?php
+
+// BEGIN iThemes Security - Do not modify or remove this line
+// iThemes Security Config Details: 2
+define( 'DISALLOW_FILE_EDIT', false ); // Disable File Editor - Security > Settings > WordPress Tweaks > File Editor
+define( 'FORCE_SSL_ADMIN', false ); // Redirect All HTTP Page Requests to HTTPS - Security > Settings > Secure Socket Layers (SSL) > SSL for Dashboard
+// END iThemes Security - Do not modify or remove this line
+
 /**
  * The base configuration for WordPress
  *
@@ -20,16 +27,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'theiconicwears_db' );
+define( 'DB_NAME', 'unaux_27000251_231' );
 
 /** MySQL database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', '27000251_1' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', '8pVSpe89]-' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'sql301.byetcluster.com' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
@@ -46,14 +53,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'h2zt/Ar7iiUUs|v8yY;u~X8unrTMJ@s|H2A5M(4Qe5d+)&d}2a{/}k-KutSp<:BO' );
-define( 'SECURE_AUTH_KEY',  'UgI|gn4jo`OT 8YgRhP,(,N)i]o<odjoWNea+,Q`Vl{WSdqdPT~(bLHr;Rr>j:54' );
-define( 'LOGGED_IN_KEY',    'M&Vv`^2#$0Ji8s%aHzpyK28/skclTKdjyu,ZGM|/r5QV4Kz*;},>aoM02&T-M)_B' );
-define( 'NONCE_KEY',        '#_Ti>+>Oz?UhpjY3KPugwwW#q@7jGg_I6HS6Alg;[Ad{_-EQ!<dJ(4=RN CNVhGY' );
-define( 'AUTH_SALT',        ']5zbo@qX4niPwp1(Wpe(x_F=}3}(plsb#/EQh>UX8:c?0fAqPiiiL>f4TJh1g?^c' );
-define( 'SECURE_AUTH_SALT', '=tRC/~}.NCF15*tt OZ3S:8d9yL#j5.oP;gj 0mXD}2z?$E@e=hy>8YBQSmt(]0}' );
-define( 'LOGGED_IN_SALT',   'K->j<bn$Qd;*XR:J^A+]CQ@4Lpqc`i`^e&5.E{HOam,r)Rg%d`LX Jc*:4yR0z(%' );
-define( 'NONCE_SALT',       '7O|daa.m=yK8tF33=XQ.hZh;[(yf!i;.>|WT  Rbn_o!Pti$|8GVvR}~STmoQkkY' );
+define( 'AUTH_KEY',         '6oy2wr4khqdgefsndrisnibalrn7lg6d3dhntbaid5jkixnrgw7z98obomglcitn' );
+define( 'SECURE_AUTH_KEY',  'lxtmvotmpuuzjun1rlq3lefwv7dlbenxe0exncztnazvjdtrsmnhbtg7wjrtxaap' );
+define( 'LOGGED_IN_KEY',    'n5dcczp2efqq5dz33hzuc5zmqqxb44esgity25izf94qkhvgvmqfnct5jvyyguoo' );
+define( 'NONCE_KEY',        'uijyqt2r4ekwpcpg3ysceue2u0a78ro0jfwnj5qh8ryuz6dpa1hmsvmizhwzbuh8' );
+define( 'AUTH_SALT',        'nflaseu8pkxtqib5dspjawq09ve8vzr617ttg738tpxiho3bnzv4phnjemjt2jwd' );
+define( 'SECURE_AUTH_SALT', 'dwwmo9udaypv9lpgxqqnqgx21ykohyaldzkiyworueo40f7p5kpnjxelbgcmromz' );
+define( 'LOGGED_IN_SALT',   'z3ijkxfu3jo7gldkbaguknprech7o1qadukb6svxast9dozdzj5jeob2z1wap0ij' );
+define( 'NONCE_SALT',       'q4qmsg9ucasvxop4fbsalmqbtb8wegswiy43ysyd7cxcjnpfjoxdkotgksqhif3a' );
 
 /**#@-*/
 
@@ -63,7 +70,7 @@ define( 'NONCE_SALT',       '7O|daa.m=yK8tF33=XQ.hZh;[(yf!i;.>|WT  Rbn_o!Pti$|8G
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'wp_';
+$table_prefix = 'wp7t_';
 
 /**
  * For developers: WordPress debugging mode.
